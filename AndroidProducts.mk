@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2017-2019 The LineageOS Open Source Project
+# Copyright (C) 2018-2020 AICP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dumpling.mk
+    $(LOCAL_DIR)/aicp_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dumpling-user \
-    lineage_dumpling-userdebug \
-    lineage_dumpling-eng
+    aicp_dumpling-user \
+    aicp_dumpling-userdebug \
+    aicp_dumpling-eng
